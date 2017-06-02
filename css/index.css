@@ -1,26 +1,25 @@
 /*
-Error: Invalid CSS after "...dding:47px;78px": expected "{", was ";0 32px;}"
-        on line 24 of wl.scss
+Error: Invalid CSS after "...px 890px; 5px 0": expected "{", was ";float:left;fon..."
+        on line 49 of index.scss
 
-19:     
-20:     }
-21:  #main{
-22:      width:100%;height:480px;background-color:#ffffff;
-23:      .fl{
-24:          padding:47px;78px;0 32px;}
-25:      }
-26:  }
+44: .w1 li{text-align:center;}
+45: .w1 ul b{font-size:22px;font-weight:900;line-height:32px;text-align:center;}
+46: 
+47: #main{width:1200px;margin:28px 0 0 28px;clear:both;margin:0 auto;overflow:hidden;padding-bottom:50px;background-color:#f7f8f8;}
+48: #main .onefloor{height:32px;margin-bottom:5px;margin-top:18px;}
+49: #main .onefloor h2{margin:15px 890px; 5px 0;float:left;font-size:18px;margin-left:10px;color:#fc5f3c;}
+50: 
+51: #main .onefloor span a{float:left;font-size:12px;font-weight:700;}
+52: 
+53: #main .onefloor-L{float:left;height:462px;width:274px;border:none;}
+54: #main .onefloor-1 .onefloor-R{border:none;width:924px;height:462px;border:1px solid #d5d5d5;}
 
 Backtrace:
-wl.scss:24
+index.scss:49
 C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1207:in `expected'
 C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1137:in `expected'
 C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1132:in `tok!'
 C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:665:in `block'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
 C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
 C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
 C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
@@ -44,4 +43,4 @@ C:/Ruby21-x64/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...dding:47px;78px\": expected \"{\", was \";0 32px;}\"\A         on line 24 of wl.scss\A \A 19:     \A 20:     }\A 21:  #main{\A 22:      width:100%;height:480px;background-color:#ffffff;\A 23:      .fl{\A 24:          padding:47px;78px;0 32px;}\A 25:      }\A 26:  }"; }
+  content: "Error: Invalid CSS after \"...px 890px; 5px 0\": expected \"{\", was \";float:left;fon...\"\A         on line 49 of index.scss\A \A 44: .w1 li{text-align:center;}\A 45: .w1 ul b{font-size:22px;font-weight:900;line-height:32px;text-align:center;}\A 46: \A 47: #main{width:1200px;margin:28px 0 0 28px;clear:both;margin:0 auto;overflow:hidden;padding-bottom:50px;background-color:#f7f8f8;}\A 48: #main .onefloor{height:32px;margin-bottom:5px;margin-top:18px;}\A 49: #main .onefloor h2{margin:15px 890px; 5px 0;float:left;font-size:18px;margin-left:10px;color:#fc5f3c;}\A 50: \A 51: #main .onefloor span a{float:left;font-size:12px;font-weight:700;}\A 52: \A 53: #main .onefloor-L{float:left;height:462px;width:274px;border:none;}\A 54: #main .onefloor-1 .onefloor-R{border:none;width:924px;height:462px;border:1px solid #d5d5d5;}"; }
