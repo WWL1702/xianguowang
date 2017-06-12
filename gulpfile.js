@@ -26,3 +26,10 @@ gulp.task("uglify",function(){
 	.pipe(uglify())//压缩
 	.pipe(gulp.dest("dist/"));
 });
+
+var gulp=require("gulp");
+var uglify = require("gulp-uglify");	
+gulp.task("index2",function(){
+	gulp.src("denglu.html")
+	.pipe(gulp.dest("dist"));
+});

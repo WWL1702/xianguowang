@@ -1,0 +1,52 @@
+
+
+
+#header {
+  height: 78px;
+  width: 100%;
+  background-color: #e0e0e0;}
+  #header .wrap {
+    width: 1188px;
+    position: relative; }
+    #header .wrap img {
+      width: 146px;
+      height: 50px;
+      margin-left: 33px;
+      margin-right: 154px;
+      margin-top: 10px; }
+    #header .wrap span {
+      font-size: 27px;
+      color: #008842;
+      padding-top: 23px;
+      font-weight: 700; }
+      #head-b{height:80px;width:100%;background-color: ;}
+      #head-b p{padding-left:1100px;padding-top:55px;font-size:12px;}
+       #head-b p a{color:#008842;}
+#main{width:100%;height:725px;background-color:#f7f8f8;
+border-bottom:1px solid #262626;}
+#main .wrap{margin-top:62px;margin:0 auto;border:1px solid #BEBDBD;width:1199px;height:700px;background-color:#ffffff;}
+#main .wrap .biaodan{margin:50px 0 0 180px}
+#main .wrap .biaodan p{margin-bottom:26px;}
+#main .wrap .biaodan p input{width:306px;height:40px;}
+#main .wrap .biaodan p b{display:inline-block;width:80px;height:30px;padding-right:20px;font-size:12px;font-weight:500;}
+#main .wrap .biaodan .danxuankuang{width:20px;height:20px;margin-left:100px;}
+#main .wrap .biaodan .zhuce{width:306px;height:40px;background-color:#008842;margin-left:100px;}
+#main .wrap .fr{position: absolute;left:800px;top:300px}
+
+
+
+#footer{background-color:#f7f8f8;}
+ #footer dl{width:176px;margin-top:50px;margin-left:75px;float:left;display:inline;}
+#footer dl dt{height:23px;line-height:23px;font-size:14px;text-indent:40px;background:url(../img/footer.png) no-repeat;}
+#footer .f1 dt{background-position:0 0;}
+#footer .f1{padding-left:50px;}
+
+#footer dl dd{border-left:1px dashed #bebdbd;padding-left:20px;height:110px;margin:15px 0 0 13px;}
+#footer .f2 dt{background-position:0 -23;}
+#footer dl a{font-size:12px;line-height:18px;color:#575556;}
+#footer .footer-cen{text-align:center;clear:both;padding:60px 0 20px;color:#008842;font-size:14px;}
+
+#footer .footer-bom p{text-align:center;line-height:22px;color:#717171;}
+#footer .footer-bom .footer-b a{padding-left:23px;}
+#footer .footer-bom p:nth-child(2) a:hover{color:#008842}
+   

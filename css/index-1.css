@@ -12,6 +12,9 @@ position:relative;}
 .wrap .fl .city-con{display:none;}
 .wrap .fl .city-con{width:300px;height:250px;z-index:999;border:1px solid #008842;border-top:none;position:absolute;left:120px;top:30px;background-color:#ffffff;}
 .wrap .fl .city:hover .city-con{display:block}
+.wrap .fl .city-con .headline{height:38px;background-color:#666666;}
+.wrap .fl .city-con .headline a{padding-left:40px;color:#008842}
+
 /*.wrap .city-sz{float:left;height:16px;line-height:30px;margin:7px 0;cursor:pointer;}
 .wrap .city-tit{float:left}
 .wrap .cityname{z-index:999;display:block;float:left;position:relative;height:20px;}
@@ -44,7 +47,11 @@ position:relative;}
 #header .wrap .search-word{margin-left:305px;}
 #header .wrap .search-word li{float:left;margin-right:9px;padding-bottom:13px;}
 #header .wrap .shopping-car{float:left;width:170px;height:40px;border:1px solid #008842;
-margin:15px 30px 0 0;position:absolute;left:1027px;top:0px;}
+margin:15px 30px 0 0;position:absolute;left:1027px;top:0px;background-color:#F7FBFF;}
+#header .wrap .shopping-car b{padding-left:20px;margin-top:20px;color:#008842;font-weight:700;font-size:24px;}
+#header .wrap .shopping-car img{width:30px;height:25px;margin:0;padding:0;}
+#header .wrap .shopping-car a{padding-left:30px;}
+
 #banner{position:relative;width:100%;height:500px;border:1px solid pink;margin-bottom:30px;}
 #banner img{left:0;}
 
@@ -58,14 +65,18 @@ line-height:38px;color:#ffffff;}
 .nav-L .nav-1 .nav-3{background-color:#ffffff;opacity:0.9;border:1px solid #008842;width:250px;height:500px;z-index:998px;position:absolute;left:180px;top:0;}
 .nav-L .nav-1 .nav-3{display:none;}
 .nav-L .nav-2:hover .nav-3{display:block;}
-.nav-L .nav-2 a{transform:translateY(5px);transition:0.8s;}
+.nav-L .nav-2 a{padding-left:10px;transform:translateY(5px);transition:0.8s;}
 .nav-L .nav-1 .nav-3 h2 a{font-size:18px;color:#008842}
 .nav-L .nav-1 .nav-3 ul{margin-bottom:50px;}
 .nav-L .nav-1 .nav-3 li{padding-left:10px;display:inline-block;}
 
 .nav-L .nav-4:hover .nav-3{display:block;}
 
+.nav-L .nav-5:hover .nav-3{display:block;}
 
+.nav-L .nav-6:hover .nav-3{display:block;}
+
+.nav-L .nav-7:hover .nav-3{display:block;}
 
 
 .w1{width:1200px;margin-left:32px;margin-top:30px;position:relative;margin:0 auto;} 
